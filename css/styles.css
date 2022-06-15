@@ -1,0 +1,199 @@
+:root {
+	--text-color: #757575;
+	--sec-text-color: #212121;
+	--bg-color: #ffffff;
+	--hero-bg-color: #2f303a;
+	--sec-bg-color: #f5f4fa;
+	--accent-color: #2196f3;
+}
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	/* line-height: 1.46; */
+	letter-spacing: 0.03em;
+}
+
+/*  основний колір тексту #757575 */
+/* додатковий колір тексту #212121; */
+/* вторинний колір фону #F5F4FA; */
+/* колір фону підвалу #2F303A; */
+/* колір тексту підвалу rgba(255,255,255,0.6) */
+/* акцент #2196F3; */
+
+/* common styles */
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+	color: var(--text-color);
+}
+/* .link:hover,
+.link:focus {
+    color: var(--accent-color);
+} */
+.title {
+	color: var(--sec-text-color);
+	font-weight: 700;
+}
+
+/* header */
+.header {
+	font-weight: 500;
+}
+.header-logo {
+	color: var(--accent-color);
+	font-family: "Raleway", sans-serif;
+	font-size: 26px;
+	line-height: 1.19;
+}
+.header-nav .link {
+	color: var(--sec-text-color);
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.header-group .link {
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus {
+	color: var(--accent-color);
+}
+.link.current {
+	color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+	background-color: var(--hero-bg-color);
+	text-align: center;
+}
+.hero-title {
+	color: #ffffff;
+	font-size: 44px;
+	font-weight: 900;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.hero-button {
+	border: none;
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	text-align: center;
+	color: #ffffff;
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+	background-color: #188ce8;
+}
+
+/* features */
+.features .title {
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+.f-text {
+	line-height: 1.71;
+}
+
+/* wokrk */
+.work .title {
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+
+/* team */
+.team {
+	background-color: var(--sec-bg-color);
+}
+.list-item {
+	background-color: var(--bg-color);
+}
+.team .title {
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+}
+.team-list-title {
+	color: var(--sec-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+.t-text {
+	font-size: 16px;
+	line-height: 1.19;
+	text-align: center;
+}
+
+/* footer */
+
+.footer {
+	background-color: var(--hero-bg-color);
+}
+
+.address {
+	font-style: normal;
+	line-height: 1.71;
+}
+.adr-link {
+	color: #ffffff;
+}
+.cont-link {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio styles */
+
+/* buttons styles */
+.button {
+	color: var(--sec-text-color);
+	background: #f5f4fa;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+}
+.active-button {
+	color: #ffffff;
+	background-color: var(--accent-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+/* project styles */
+.project {
+	border: 1px solid #eeeeee;
+}
+.project-title {
+	color: var(--sec-text-color);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	text-align: left;
+}
+.p-text {
+	font-size: 16px;
+	line-height: 1.88;
+	text-align: left;
+}
