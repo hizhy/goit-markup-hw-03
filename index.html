@@ -18,10 +18,10 @@
 	<body>
 		<!-- Хедер -->
 		<header class="header">
-			<div class="container">
+			<div class="header-container container">
 				<a class="header-logo link" href="#">Web<span style="color: #000000">Studio</span> </a>
 				<nav class="header-nav">
-					<ul class="list">
+					<ul class="header-nav-list list">
 						<li class="header-item">
 							<a class="link current" href="#">Студія</a>
 						</li>
@@ -32,43 +32,47 @@
 					</ul>
 				</nav>
 				<div class="header-group">
-					<a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-					<a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+					<a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					<a class="contact link" href="tel:+380961111111">+38 096 111 11 11</a>
 				</div>
 			</div>
 		</header>
 		<main>
 			<!-- розділ Hero -->
 			<section class="hero">
-				<h1 class="hero-title">
-					ефективні рішення
-					<br />
-					для вашого бізнесу
-				</h1>
-				<button class="hero-button" type="button">Замовити послугу</button>
+				<div class="hero-container container">
+					<h1 class="hero-title">
+						ефективні рішення
+						<br />
+						для вашого бізнесу
+					</h1>
+					<button class="hero-button" type="button">Замовити послугу</button>
+				</div>
 			</section>
 			<!-- розділ Особливості -->
 			<section class="features">
 				<!-- заголовок розділу "Особливості", який буде потім схований -->
-				<h2 hidden>Особливості</h2>
-				<ul class="list">
-					<li>
-						<h3 class="title">увага до деталей</h3>
-						<p class="f-text"> Ідейні висновки, а також початок повсякденної роботи по формуванню позиції. </p>
-					</li>
-					<li>
-						<h3 class="title">пунктуальність</h3>
-						<p class="f-text"> Задача організації, а особоливо рамки і місце навчання тягнуть за собою. </p>
-					</li>
-					<li>
-						<h3 class="title">планування</h3>
-						<p class="f-text"> Однаковим чином консультація з широким активом в значній мірі обумовлює. </p>
-					</li>
-					<li>
-						<h3 class="title">сучасні технології</h3>
-						<p class="f-text"> Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
-					</li>
-				</ul>
+				<div class="container">
+					<h2 hidden>Особливості</h2>
+					<ul class="features-list list">
+						<li class="f-item">
+							<h3 class="title">увага до деталей</h3>
+							<p class="f-text"> Ідейні висновки, а також початок повсякденної роботи по формуванню позиції. </p>
+						</li>
+						<li class="f-item">
+							<h3 class="title">пунктуальність</h3>
+							<p class="f-text"> Задача організації, а особоливо рамки і місце навчання тягнуть за собою. </p>
+						</li>
+						<li class="f-item">
+							<h3 class="title">планування</h3>
+							<p class="f-text"> Однаковим чином консультація з широким активом в значній мірі обумовлює. </p>
+						</li>
+						<li class="f-item">
+							<h3 class="title">сучасні технології</h3>
+							<p class="f-text"> Значимість цих проблем настільки очевидна, що реалізація планових завдань. </p>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!-- Розділ Чим ми займаємось -->
 			<section class="work">
